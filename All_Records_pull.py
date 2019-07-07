@@ -302,5 +302,5 @@ for i in range(len(all)):
         # print(records(name=team_names[i],url=x))
         allrec=allrec.append(records(name=team_names[i], url=x), ignore_index=True)
 
-allrec.to_csv('C:\\Users\\mj934a\\Desktop\\Allrecords1.csv')
+allrec.to_csv('C:\\Users\\mj934a\\Desktop\\Allrecords.csv')
 print("Time taken=",time.time()-start)
