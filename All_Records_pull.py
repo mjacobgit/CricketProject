@@ -1,10 +1,9 @@
 import pandas as pd
 import time
+import regex as re
 start=time.time()
 # Function to pull the records from each scorecard
-def records(name, url, home='Marymoor Park'):
-    import pandas as pd
-    import regex as re
+def records(name, url, home='Marymoor Park'):    
     d = pd.read_html(url)  # Reading all the tables from the site. Will be read as panda DFs
     # Selecting the individula DFs of interest
     dnb1 = d[3].columns[0]
