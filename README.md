@@ -1,0 +1,3 @@
+# CricketProject
+Data Science mini project on cricket
+Analyzed data from a worldwide Cricket stats management website (CricClubs), where player stats from various leagues around the world are stored. Performed web crawling techniques to pull the required data points, data cleansing and modeling to standardize the structure. Data was then fed into a power BI visualization with slicers. The goal of this project is to provide the captain with an accessible UI to determine the best 11 players that satisfy their game strategy. Each spot in the roster is significant and data can help maximize the quality of player selection.
